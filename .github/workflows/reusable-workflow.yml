@@ -9,7 +9,7 @@ jobs:
 
     steps:
     - name: checkout code
-      uses: actions/checkout@v4
+      uses: actions/checkout@v3
       
     - name: testing-stage
       uses: sandeepreddygit/github-reusable-workflows/.github/workflows/reusable.yml@main
