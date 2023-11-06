@@ -9,4 +9,4 @@ jobs:
 
     steps:
     - name: testing-stage
-      uses: sandeepreddygit/.github/workflow/reusable.yml@main
+      uses: sandeepreddygit/github-reusable-workflows/.github/workflow/reusable.yml@main
