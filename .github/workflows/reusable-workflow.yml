@@ -8,5 +8,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: checkout code
+      uses: actions/checkout@v4
+      
     - name: testing-stage
       uses: sandeepreddygit/github-reusable-workflows/.github/workflow/reusable.yml@main
