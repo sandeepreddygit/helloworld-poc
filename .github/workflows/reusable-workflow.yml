@@ -1,0 +1,12 @@
+name: testing for reusable workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  testing-stage:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: testing-stage
+      uses: sandeepreddygit/.github/workflow/reusable.yml@main
