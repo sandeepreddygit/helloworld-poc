@@ -1,0 +1,11 @@
+name: First workflow
+on: workflow_dispatch
+jobs:
+  first-workflow-testing
+    runs-on: ubuntu-latest
+    steps:
+    - name: first comment
+      run: echo "first-comment"
+
+    - name: second comment"
+      run: echo "second-comment"
