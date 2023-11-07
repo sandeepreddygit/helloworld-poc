@@ -4,9 +4,9 @@ jobs:
   testing-stage:
     runs-on: ubuntu-latest
     steps:
-    - name: checkout code
-      uses: actions/checkout@v3
-    - name: run-shell-command
-      run: echo "Hello, World!"
-    - name: testing-stage
-      uses: sandeepreddygit/github-reusable-workflows/.github/workflows/reusable.yml@main
+      - name: checkout code
+        uses: actions/checkout@v3
+      - name: run-shell-command
+        run: echo "Hello, World!"
+      - name: testing-stage
+        uses: sandeepreddygit/github-reusable-workflows/.github/workflows/reusable.yml@main
